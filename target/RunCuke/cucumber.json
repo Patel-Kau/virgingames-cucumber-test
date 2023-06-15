@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4756882400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should navigate to virgin games web page successfully",
+        "description": "",
+        "id": "virgin-games-test;user-should-navigate-to-virgin-games-web-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 795077100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teatDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 168548400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should on homepage",
+            "match": {
+              "location": "VirginGames.userShouldOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166367200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on accept cookies",
+            "match": {
+              "location": "VirginGames.userClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128577400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on OnlineSlots at top menu",
+            "match": {
+              "location": "VirginGames.userClickOnOnlineSlotsAtTopMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1097127100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should navigate to OnlineSlots page successfully",
+            "match": {
+              "location": "VirginGames.userShouldNavigateToOnlineSlotsPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Virgin Games Test",
+    "description": "As user I want to Play online slots at virgin games website",
+    "id": "virgin-games-test",
+    "keyword": "Feature",
+    "uri": "virgingames.feature"
+  }
+]
